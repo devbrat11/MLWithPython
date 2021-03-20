@@ -1,7 +1,8 @@
 from azure.storage.blob import BlobServiceClient
 
 class BlobDataReader:
-    CONNECTIONSTRING = 'DefaultEndpointsProtocol=https;AccountName=mlappdata;AccountKey=LiE9PRgvx0vl6HPkK9Kapw1lG71Ge7Gvi/gULY3bqk+v7jqO6E+Xjg/oOOA+eArGWYD4TWhN9p0I8qGlvNPY6Q==;EndpointSuffix=core.windows.net'
+    #enter connection string
+    CONNECTIONSTRING = ''
     CONTAINERNAME = 'datasets'
     FILENAME = 'heart.csv'
 
