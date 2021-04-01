@@ -1,5 +1,6 @@
 from azure.storage.blob import BlobServiceClient
 
+# class to read data from csv stored in azure blobs
 class BlobDataReader:
     #enter connection string
     CONNECTIONSTRING = ''
