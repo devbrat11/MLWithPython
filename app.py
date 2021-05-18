@@ -8,7 +8,7 @@ mlAnalyzer = MlModel()
 
 @app.route("/")                
 def status(): 
-    return "My G-Ml App is running..."  
+    return "Ml App is running using Python and Flask..."  
 
 @app.route('/data', methods=['GET'])                  
 def getData():
